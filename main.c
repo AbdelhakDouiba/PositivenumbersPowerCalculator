@@ -3,14 +3,14 @@
 
 int main()
 {
-    printf("##### Welcome to the POWER CACULATOR ####\n");
+    printf("      ##### Welcome to the POWER CACULATOR ####\n");
     
     int number  , z , i ;
     unsigned int power ;
-    printf("enter the number : ");
+    printf("Enter the number : ");
     scanf("%d" , &number);
 
-    printf("the order of the power 'Mark well => positive intger only' : ");
+    printf("The order of the power 'Mark well => positive intger only' : ");
     scanf("%u" , &power);
 
     i = ( power - 1 );
